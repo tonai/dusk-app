@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.menu {
+  position: absolute;
+  bottom: 0;
+  translate: 0 100%;
+  display: flex;
+}
+
+.subMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.active {
+  border-color: #0000ff;
+}
